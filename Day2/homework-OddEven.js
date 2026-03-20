@@ -1,7 +1,7 @@
 //1- Odd or Even
-isOddOrEven()
+
 function isOddOrEven(){
-    let X 
+    let X = 23
     if (typeof X !== 'number'){
         console.log("No Given Number X")
     }
@@ -12,4 +12,4 @@ function isOddOrEven(){
         console.log("The given number X is odd")
     }
 }
-
+isOddOrEven()

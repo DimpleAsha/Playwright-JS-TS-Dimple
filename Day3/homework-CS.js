@@ -13,12 +13,14 @@ launchBrowser()
 
 
 function runTests(){
-    let testType
+    let testType = 1
     switch(testType){
         case 1:
             console.log("Smoke")
+        break
         case 2:
             console.log("Sanity")
+        break
         case 3:
             console.log("Regression")
         break

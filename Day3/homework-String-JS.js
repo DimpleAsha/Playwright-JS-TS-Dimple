@@ -11,7 +11,7 @@ function reverseString(){
         console.log("The given string is a Palindrome")
     }
     else{
-        console.log("The given string is not a plaindrome or else its empty")
+        console.log("The given string is not a palindrome or else its empty")
     }
 }
 reverseString()
