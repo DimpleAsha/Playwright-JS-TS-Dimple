@@ -13,7 +13,7 @@ test("Verify dynamic movie ticket booking flow in PVR Cinemas website", async({p
     await page.locator('(//ul[@role="listbox"]//span/span[@class="mx-2"])[1]').click()
     await page.getByRole('button', {name:"Submit"}).click()
     await page.getByRole('button', {name:"Accept"}).click()
-    const primeSeat = page.locator('span[id*="PRIME ROWS"].seat-current-pvr').first()
+    const primeSeat = page.locator('//span[contains(@id, "PRIME ROWS") and contains(@class, "seat-current-pvr")]').first()
     const seatId = await primeSeat.getAttribute('id')
     if (seatId) {
         const clickedNumber = seatId.split('|')[1].replace(':', '');
