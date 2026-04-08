@@ -9,6 +9,4 @@ test("Frames-Assesment", async({page})=>{
     let frame4 = page.frameLocator('//iframe[@src="page.xhtml"]').frameLocator('//iframe[@id="frame2"]').locator('//button[@id="Click"]')
     await frame4.click()
     await expect(frame4).toHaveText("Hurray! You Clicked Me.")
-
-
 })
