@@ -1,0 +1,38 @@
+[
+    {
+        "TestcaseID" : "TC001",
+        "Context":{
+            "Username" : "demosalesmanager",
+            "Password" : "crmsfa"
+        },
+        "LeadDetails" :{
+            "CompanyName" : "TestLeaf",
+            "FirstName" : "Dimple",
+            "LastName" : "Asha",
+            "Source" : "Direct Mail",
+            "MarketingCampaign" : "Demo Marketing Campaign",
+            "IndustryIndex" : 6,
+            "PreferredCurrency": "INR",
+            "Country" :"IND",
+            "State" : "ANDHRA PRADESH"
+        }
+    },
+    {
+        "TestcaseID" : "TC002",
+        "Context":{
+            "Username" : "democsr2",
+            "Password" : "crmsfa"
+        },
+        "LeadDetails" :{
+            "CompanyName" : "TestLeaf1",
+            "FirstName" : "Dimple1",
+            "LastName" : "Asha1",
+            "Source" : "Direct Mail",
+            "MarketingCampaign" : "Demo Marketing Campaign",
+            "IndustryIndex" : 6,
+            "PreferredCurrency": "INR",
+            "Country" :"IND",
+            "State" : "ANDHRA PRADESH"
+        }
+    }
+]
