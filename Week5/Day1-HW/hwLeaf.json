@@ -1,7 +1,7 @@
 [
     {
         "TestcaseID" : "TC001",
-        "Context":{
+        "Login":{
             "Username" : "demosalesmanager",
             "Password" : "crmsfa"
         },
@@ -19,7 +19,7 @@
     },
     {
         "TestcaseID" : "TC002",
-        "Context":{
+        "Login":{
             "Username" : "democsr2",
             "Password" : "crmsfa"
         },

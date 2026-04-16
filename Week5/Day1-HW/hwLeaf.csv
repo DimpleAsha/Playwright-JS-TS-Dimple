@@ -1,0 +1,4 @@
+TestcaseID,Username,Password,CompanyName,FirstName,LastName,Source,MarketingCampaign,IndustryIndex,PreferredCurrency,Country,State
+TC001,demosalesmanager,crmsfa,Test Leaf,Dimple,Asha,Direct Mail,Demo Marketing Campaign,6,INR,IND,ANDHRA PRADESH
+
+TC002,democsr2,crmsfa,Test Leaf 1,Dimple1,Asha1,Direct Mail,Demo Marketing Campaign,6,INR,IND,ANDHRA PRADESH

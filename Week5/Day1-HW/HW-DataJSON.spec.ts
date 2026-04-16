@@ -1,14 +1,14 @@
 import{test,expect} from '@playwright/test'
 //import data from "../../data/Leaf.json"
-import testData from "../../data-HW/hwLeaf.json"
+import testData from "./hwLeaf.json"
 
 //login with data parametrization-
 for(let data of testData){        
     test(`Create Lead with Data Parametrization ${data.TestcaseID}` , async({page})=>{
         await page.goto("https://leaftaps.com/opentaps/control/main")
         //login with .json- Data Parametrization
-        await page.getByRole('textbox', {name:"Username"}).fill(data.Context.Username)
-        await page.getByRole('textbox', {name:"Password"}).fill(data.Context.Password)
+        await page.getByRole('textbox', {name:"Username"}).fill(data.Login.Username)
+        await page.getByRole('textbox', {name:"Password"}).fill(data.Login.Password)
         await page.getByRole('button', {name:"Login"}).click()
         await page.getByRole('link', {name:"CRM/SFA"}).click()
         await page.getByRole('link', {name:"Leads", exact:true}).click()
