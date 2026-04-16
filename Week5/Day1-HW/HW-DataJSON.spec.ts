@@ -1,5 +1,4 @@
 import{test,expect} from '@playwright/test'
-//import data from "../../data/Leaf.json"
 import testData from "./hwLeaf.json"
 
 //login with data parametrization-
