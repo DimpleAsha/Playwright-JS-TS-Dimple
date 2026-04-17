@@ -1,5 +1,5 @@
 import{test,expect} from '@playwright/test'
-import testData from "./hwLeaf.json"
+import testData from "./hwLeafdata.json"
 
 //login with data parametrization-
 for(let data of testData){        

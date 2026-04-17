@@ -4,7 +4,7 @@ import fs from "fs"
 import path from "path"
 
 //let value:any[]=parse(fs.readFileSync("Day1-HW/hwLeaf.csv"),{columns:true, skip_empty_lines:true})
-const filePath = path.join(__dirname, 'hwLeaf.csv');
+const filePath = path.join(__dirname, 'hwLeafdata.csv');
 let value: any[] = parse(fs.readFileSync(filePath), { columns: true, skip_empty_lines: true });
 for(let data of value){
     test(`Data Paramtrization using .csv: ${data.TestcaseID}`, async({page})=>{

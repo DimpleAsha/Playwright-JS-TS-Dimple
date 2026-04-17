@@ -1,0 +1,31 @@
+[
+    {
+        "TestCaseID" :"TC001",
+        "Username" : "demosalesmanager",
+        "Password" : "crmsfa",
+        "CompanyName": "Test Leaf",
+        "FirstName" : "Dimple",
+        "LastName": "Asha",
+        "Source" : "Direct Mail",
+        "MarketingCampaign" : "Demo Marketing Campaign",
+        "IndustryIndex" : 7,
+        "PreferredCurrency" : "USD",
+        "Country" : "USA",
+        "State" : "Massachusetts"  
+    },
+
+    {
+        "TestCaseID" :"TC002",
+        "Username" : "democsr2",
+        "Password" : "crmsfa",
+        "CompanyName": "Test Leaf",
+        "FirstName" : "Dimple",
+        "LastName": "Asha",
+        "Source" : "Employee",
+        "MarketingCampaign" : "Road and Track",
+        "IndustryIndex" : 6,
+        "PreferredCurrency" : "INR",
+        "Country" : "IND",
+        "State" : "TAMILNADU"
+    }
+]
